@@ -251,7 +251,7 @@ Configured Jenkins user access to the EKS cluster for manifest update operations
 ```bash
 sudo su - jenkins
 aws configure
-aws eks update-kubeconfig --name <cluster-name> --region <region-name>
+aws eks update-kubeconfig --name DevSecOps-Cluster --region us-east-1
 kubectl get nodes
 ```
 
