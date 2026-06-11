@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: shaikmustafa/anath:v1
+        image: eshwar933/zomato:1
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
