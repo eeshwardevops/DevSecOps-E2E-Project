@@ -1,0 +1,115 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# Terraform
+# ==========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Terraform lock file (optional)
+# Keep if working in team environments
+# .terraform.lock.hcl
+
+# ==========================
+# AWS
+# ==========================
+.aws/
+
+# ==========================
+# Sensitive files
+# ==========================
+secrets.yaml
+secret.yaml
+*.pem
+*.key
+*.crt
+*.p12
+
+# Environment files
+.env
+.env.*
+
+# ==========================
+# Kubernetes
+# ==========================
+kubeconfig
+*.kubeconfig
+
+# ==========================
+# Jenkins
+# ==========================
+jenkins_home/
+workspace/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# IntelliJ
+# ==========================
+.idea/
+*.iml
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+
+# ==========================
+# Node.js
+# ==========================
+node_modules/
+
+# ==========================
+# Coverage Reports
+# ==========================
+coverage/
+reports/
