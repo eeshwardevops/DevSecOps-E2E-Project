@@ -128,7 +128,7 @@ aws eks list-clusters
 ### Configure kubectl Access
 
 ```bash
-aws eks update-kubeconfig --name <cluster-name> --region <region-name>
+aws eks update-kubeconfig --name DevSecOps-Cluster --region us-east-1
 ```
 
 ### Verify Worker Nodes
